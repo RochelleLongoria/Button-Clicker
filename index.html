@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Container Start Here -->
+    <div class="m-contain test">
+        <div class="navBar">
+            <div class="navTitle">
+                <h1>Dojonary</h1>
+                <input type="text" placeholder="Search">
+                <button class="login" onclick="sayLogout(this)" type="submit">
+                    Submit
+                </button>
+        </div>
+        <div class="b-contain test">
+            <div class="left test">
+                <div class="box-one">
+                    <div class="ninjaBox test"> 
+                        <h1>ninja</h1>  
+                        <p><em>noun</em></p>
+                        <p>Plural: <em>ninjas</em></p>
+                        <button onclick="alert('This page says Ninja was liked')">13 Likes</button>
+                    </div>
+                    <div class="def-cont test">
+                        <p>A practiitioner skilled in the</p>
+                        <p class="link"><em>Japanese</em> art of <em>ninjutsu</em></p>
+                    </div>
+                </div>
+                <div class="box-two">
+                    <div class="ninjaBox test"> 
+                        <h1>ninja</h1>  
+                        <p><em>noun</em></p>
+                        <p>Plural: <em>ninjas</em></p>
+                        <button onclick="alert('This page says <br> Ninja was liked')">37 Likes</button>
+                    </div>
+                    <div class="def-cont test">
+                        <p class="link">A <em>programmer</em> who breaks</p>
+                        <p class="link"> down problems with <em>zen-</em>like focus</p>
+                    </div>
+                </div>
+            </div>
+            <div class="right test">
+                <div class="box-three">
+                    <div class="definition-con">
+                    <h1>Dojonary is </h1>
+                    <h1>defined by you</h1>
+                    </div>
+                    <button id="add" onclick="removeButton()">
+                        Add Definition
+                    </button>                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ^Bottom -->
+    <script src="main.js"></script>
+</body>
+
+</html>
